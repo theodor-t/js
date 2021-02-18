@@ -66,9 +66,12 @@ console.log(calculate(5,3));*/
 /*console.log(numbers.reduce((a, b) => a + b));*/
 //
 const marks = [7, 3, 7, 8, 9, 10];
-let sum = 0, average = 0;
-for (let i = 0; i < marks.length; sum += marks[i++]);
-	console.log('Suma notelor este :' + sum);
+let sum = 0;
+let average = 0;
+for (let i = 0; i < marks.length; i++){
+	sum += marks[i];
+}
+console.log('Suma notelor este :' + sum);
 average = sum / marks.length;
 	console.log('Media este :' + average);
 min = Math.min(...marks);
