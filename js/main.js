@@ -65,7 +65,7 @@ console.log(calculate(5,3));*/
 
 /*console.log(numbers.reduce((a, b) => a + b));*/
 //
-const marks = [7, 3, 7, 8, 9, 10];
+/*const marks = [7, 3, 7, 8, 9, 10];
 let sum = 0;
 let average = 0;
 for (let i = 0; i < marks.length; i++){
@@ -81,3 +81,4 @@ if (min < 5) {
 } 
 else console.log('Studentul nu este restantier.');
 
+*/

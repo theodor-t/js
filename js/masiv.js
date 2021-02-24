@@ -28,3 +28,5 @@ do {
 //map
 let value;
 const mapresult = numbers.map(value => console.log(value));
+//moy sposob
+console.log(numbers);
