@@ -21,9 +21,9 @@ class Person {
     }
 }
 
-const worker = new Person('Иван', 'Иванов');
+const worker = new Person('РРІР°РЅ', 'РРІР°РЅРѕРІ');
 
 console.log(worker.name);
 console.log(worker.surname);
-console.log(worker.name = 'Петр');
-console.log(worker.surname = 'Петров');
+console.log(worker.name = 'РџРµС‚СЂ');
+console.log(worker.surname = 'РџРµС‚СЂРѕРІ');
