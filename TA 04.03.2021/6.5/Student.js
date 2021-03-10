@@ -14,7 +14,7 @@ class Student extends User {
     }
 }
 
-const student = new Student('Иван', 'Иванов', 2018);
+const student = new Student('РРІР°РЅ', 'РРІР°РЅРѕРІ', 2018);
 
 console.log(student.name);
 console.log(student.surname);
